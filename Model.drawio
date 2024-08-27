@@ -1,9 +1,196 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="0iKNBjSxTO5VBwB9Uzt2">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-1" value=".nlg format:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=0;shadow=0;labelBackgroundColor=none;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=25;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="Hm81v1ggbnl3Qcxi1E1R-3" target="Hm81v1ggbnl3Qcxi1E1R-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-3" value="Model&lt;br&gt;Info" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=25;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="Hm81v1ggbnl3Qcxi1E1R-5" target="Hm81v1ggbnl3Qcxi1E1R-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-5" value="Mesh&lt;br&gt;Info" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="140" y="110" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=25;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="Hm81v1ggbnl3Qcxi1E1R-7" target="Hm81v1ggbnl3Qcxi1E1R-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-7" value="Mesh&lt;br&gt;Buffers" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=25;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="Hm81v1ggbnl3Qcxi1E1R-9" target="Hm81v1ggbnl3Qcxi1E1R-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-9" value="Model&lt;br&gt;Transform&lt;br&gt;Matrix" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="400" y="115" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-10" value="Shadow&lt;br&gt;Buffer&lt;br&gt;Offset" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="140" y="240" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="Hm81v1ggbnl3Qcxi1E1R-12" target="Hm81v1ggbnl3Qcxi1E1R-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="90" />
+              <mxPoint x="600" y="90" />
+              <mxPoint x="600" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-12" value="Skin&lt;br style=&quot;font-size: 20px;&quot;&gt;Morph&lt;br style=&quot;font-size: 20px;&quot;&gt;Bounding Box" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="30" width="150" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=80;entryDy=65;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;flowAnimation=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="Hm81v1ggbnl3Qcxi1E1R-9" target="Hm81v1ggbnl3Qcxi1E1R-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=80;entryDy=65;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;startArrow=classic;startFill=1;" edge="1" parent="1" source="Hm81v1ggbnl3Qcxi1E1R-12" target="Hm81v1ggbnl3Qcxi1E1R-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=70;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="Hm81v1ggbnl3Qcxi1E1R-10" target="Hm81v1ggbnl3Qcxi1E1R-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-16" value="Define where the mesh start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Hm81v1ggbnl3Qcxi1E1R-15">
+          <mxGeometry x="0.2235" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-17" value="Model Info:" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="15" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-18" value="&lt;font color=&quot;#a680b8&quot;&gt;Structure&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-17">
+          <mxGeometry x="10" y="50" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-19" value="12 bytes:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#A680B8;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-18">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-20" value="Model name (Hash)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#22FF00;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-18">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-21" value="Number of mesh (int4)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#3399FF;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-18">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-22" value="4 bytes (null)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-18">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-23" value="Mesh Info:" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="15" width="160" height="515" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-24" value="&lt;font color=&quot;#a680b8&quot;&gt;Structure&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-23">
+          <mxGeometry x="10" y="50" width="140" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-25" value="64 bytes (per mesh)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#A680B8;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-24">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-26" value="4 bytes (unknown)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-24">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-27" value="4 bytes (triangles or face amount or edges)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#3399FF;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-24">
+          <mxGeometry y="90" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-28" value="4 bytes (unknown/null)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-24">
+          <mxGeometry y="130" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-29" value="4 bytes (material name)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#22FF00;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-24">
+          <mxGeometry y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-30" value="4 bytes (unknown)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#22FF00;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-24">
+          <mxGeometry y="190" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-31" value="12 byes (unknow/null)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-24">
+          <mxGeometry y="220" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-32" value="4 bytes (NB vertex, this is a mask for used vertices)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#3399FF;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-24">
+          <mxGeometry y="250" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-33" value="4 bytes (could be 2 int16 bit, unknown)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#3399FF;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-24">
+          <mxGeometry y="300" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-34" value="4 bytes (mesh name)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#22FF00;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-24">
+          <mxGeometry y="350" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-35" value="&lt;i&gt;Other bytes: unknown/null, this might be used with complex material like morph&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FF6666;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-24">
+          <mxGeometry y="380" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-36" value="Vertex Start pointer :" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="15" width="165" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-37" value="&lt;font color=&quot;#a680b8&quot;&gt;Structure&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-36">
+          <mxGeometry x="10" y="50" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-38" value="8 bytes:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#A680B8;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-37">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-39" value="4 bytes (Offset of the mesh)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#3399FF;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-37">
+          <mxGeometry y="60" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-40" value="Note that this part is 8 bytes so in some models the offset may need more then 4 bytes" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#FF6666;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-37">
+          <mxGeometry y="110" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-41" value="Before this offset there &lt;br&gt;is the Shadow mesh buffer&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;IF THE OFFSET IS &amp;gt; 0&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-36">
+          <mxGeometry x="-5" y="235" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-42" value="Mesh buffers :" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="340" width="430" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-43" value="&lt;font color=&quot;#a680b8&quot;&gt;Structure&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-42">
+          <mxGeometry x="10" y="40" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-44" value="X bytes:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#A680B8;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-43">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-45" value="Shadow buffer (size = nb vertex*12)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-43">
+          <mxGeometry y="60" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-46" value="Vertices buffer (size = data*nb vertex)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-43">
+          <mxGeometry y="90" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-47" value="Triangles buffer (This is a list of int2, so a single triangle is 6 bytes made of 3 indices, also you can change the number of triangles without crashing)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-43">
+          <mxGeometry y="120" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-48" value="&lt;b&gt;SOMETIME SHADOW BUFFER &lt;br&gt;DOESN&#39;T EXIST&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF6666;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-42">
+          <mxGeometry x="230" y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-49" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;Vertex data depend on&lt;/span&gt;&lt;br style=&quot;text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;the used material&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-42">
+          <mxGeometry x="240" y="90" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-50" value="Until edit, &lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;YOU CAN&#39;T ADD OR REMOVE&lt;/font&gt;&lt;/b&gt; vertices, if the mesh have 100 vertices you have get the same amount (You can disable some vertices with the vertex mask from the info file" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-42">
+          <mxGeometry x="240" y="150" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-51" value="Model Transform Matrix" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="15" width="250" height="305" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-52" value="&lt;font color=&quot;#a680b8&quot;&gt;Structure&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-51">
+          <mxGeometry x="10" y="50" width="230" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-53" value="64 bytes:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#A680B8;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-52">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-54" value="This is a regular 4x4 transform matrix, it use 16 float4 in little endian, that all !&lt;br&gt;Don&#39;t think this file is really usefull, 90% of the time the game re-apply a transform matrix so it need to be edited at runtime. Also, maybe some material change this matrix at runtime (skin or morph materials)&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;THIS MATRIX IS FOR ALL THE MESH&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="Hm81v1ggbnl3Qcxi1E1R-52">
+          <mxGeometry y="60" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=65;exitDy=15;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="Hm81v1ggbnl3Qcxi1E1R-56" target="Hm81v1ggbnl3Qcxi1E1R-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="295" />
+              <mxPoint x="520" y="33" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-56" value="Material data" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.808;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;startArrow=classic;startFill=1;" edge="1" parent="1" source="Hm81v1ggbnl3Qcxi1E1R-56" target="Hm81v1ggbnl3Qcxi1E1R-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-58" value="Material data contain the used parameters of the used material instance; these are presets, so you will find a lot of similar parameters between different materials." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="524" y="301" width="300" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
