@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="0iKNBjSxTO5VBwB9Uzt2">
-    <mxGraphModel dx="1816" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,7 +66,7 @@
         <mxCell id="Hm81v1ggbnl3Qcxi1E1R-18" value="&lt;font color=&quot;#a680b8&quot;&gt;Structure&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Hm81v1ggbnl3Qcxi1E1R-17" vertex="1">
           <mxGeometry x="10" y="50" width="140" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-19" value="16 bytes:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#A680B8;" parent="Hm81v1ggbnl3Qcxi1E1R-18" vertex="1">
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-19" value="16 bytes: 12bytes HD" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#A680B8;" parent="Hm81v1ggbnl3Qcxi1E1R-18" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hm81v1ggbnl3Qcxi1E1R-20" value="Model name (Hash)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#22FF00;" parent="Hm81v1ggbnl3Qcxi1E1R-18" vertex="1">
@@ -168,7 +168,7 @@
         <mxCell id="Hm81v1ggbnl3Qcxi1E1R-52" value="&lt;font color=&quot;#a680b8&quot;&gt;Structure&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Hm81v1ggbnl3Qcxi1E1R-51" vertex="1">
           <mxGeometry x="10" y="50" width="230" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-53" value="64 bytes:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#A680B8;" parent="Hm81v1ggbnl3Qcxi1E1R-52" vertex="1">
+        <mxCell id="Hm81v1ggbnl3Qcxi1E1R-53" value="64 bytes: per model" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#A680B8;" parent="Hm81v1ggbnl3Qcxi1E1R-52" vertex="1">
           <mxGeometry y="30" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hm81v1ggbnl3Qcxi1E1R-54" value="This is a regular 4x4 transform matrix, it use 16 float4 in little endian, that all !&lt;br&gt;Don&#39;t think this file is really usefull, 90% of the time the game re-apply a transform matrix so it need to be edited at runtime. Also, maybe some material change this matrix at runtime (skin or morph materials)&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;THIS MATRIX IS FOR ALL THE MESH&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=default;" parent="Hm81v1ggbnl3Qcxi1E1R-52" vertex="1">
