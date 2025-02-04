@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Page-1" id="xSBxwllq3xsL30y_Dv8X">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cmMBxp2xtjg79xVqQQ-J-2" value="Background" style="swimlane;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cmMBxp2xtjg79xVqQQ-J-6" value="Alpha Blue Green Red" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="cmMBxp2xtjg79xVqQQ-J-2">
+          <mxGeometry x="30" y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cmMBxp2xtjg79xVqQQ-J-3" value="Properties" style="swimlane;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="20" y="90" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cmMBxp2xtjg79xVqQQ-J-7" value="Is background visible ?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="cmMBxp2xtjg79xVqQQ-J-3">
+          <mxGeometry x="10" y="40" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmMBxp2xtjg79xVqQQ-J-8" value="Use big font ?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="cmMBxp2xtjg79xVqQQ-J-3">
+          <mxGeometry x="10" y="70" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmMBxp2xtjg79xVqQQ-J-9" value="X offset" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="cmMBxp2xtjg79xVqQQ-J-3">
+          <mxGeometry x="10" y="100" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmMBxp2xtjg79xVqQQ-J-10" value="Y offset" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="cmMBxp2xtjg79xVqQQ-J-3">
+          <mxGeometry x="10" y="130" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmMBxp2xtjg79xVqQQ-J-4" value="Text" style="swimlane;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="20" y="269.5" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cmMBxp2xtjg79xVqQQ-J-5" value="Red Blue Green Alpha" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="cmMBxp2xtjg79xVqQQ-J-4">
+          <mxGeometry x="30" y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cmMBxp2xtjg79xVqQQ-J-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;All values are BYTES&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="229" y="30" width="251" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cmMBxp2xtjg79xVqQQ-J-16" value="8 bytes : empty/crashing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="200" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
